@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card my-5 mx-auto" style="width: 18rem;">
+                    <img src="/img/3201052.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Registro</h3>
+
+                      <!-- formulario -->
+                      <form action="app/php/insertar.php">
+                        <label class="form-label">Nombre Usuario</label>
+                        <input type="text" class="form-control" name="nombre"/>
+
+                        <label class="form-label">Correo</label>
+                        <input type="text" class="form-control" name="correo"/>
+
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password"/>
+
+                        <button type="button" class="btn btn-primary mt-3 ">Guardar</button>
+
+                      </form>
+                      <!-- formulario -->
+
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
